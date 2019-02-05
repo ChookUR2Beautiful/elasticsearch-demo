@@ -49,6 +49,7 @@ public class CreateIndexTests {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("name","Elasticsearch Denver");
         jsonObject.put("organizer","Lee");
+        jsonObject.put("sort",10086L);
         PutWordResult putWordResult = elasticsearchService.putWord("/get-together", "/group", jsonObject.toJSONString(), id);
         Assert.assertEquals(putWordResult.get_id(),id);
     }

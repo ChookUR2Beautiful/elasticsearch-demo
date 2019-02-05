@@ -45,7 +45,7 @@ public class FieldTests {
     }
 
     /**
-     * 获取source字段
+     * 获取source(整合)字段
      */
     @Test
     public void getSource() throws Exception {
@@ -57,7 +57,7 @@ public class FieldTests {
     }
 
     /**
-     * 只查询store字段
+     * 只查询store(自定义)字段
      */
     @Test
     public void getStoredFields() throws Exception {
